@@ -1,0 +1,28 @@
+@import "yazitipi.css";
+@import "./temalar/aciktema.css";
+@import "./temalar/kapalitema.css";
+
+::before{
+
+}
+::after{
+    margin:0;
+    box-sizing: border-box;
+    font-weight: normal;
+}
+body{
+    min-height: 100vh;
+}
+#app{
+    min-height: 100vh;
+
+}
+#app .kapsayici{
+    min-height: 100vh;
+    color: var(--yazirengi);
+    background-color: var(--arkaplan);
+
+}
+#app .kapsayici *{
+transition: color 1s,background-color 1s;
+}
